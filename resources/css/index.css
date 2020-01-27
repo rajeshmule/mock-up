@@ -1,15 +1,16 @@
 /* This applies from 0px to 600px */
 body {
-     font-family: sans-serif;
-    }
+    font-family: sans-serif;
+}
 
 .container {
-    background-color: #00b8c4;
+    padding: 15px;
+    background-color: #00b8c4;  
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin: 0 auto;
 }
 
@@ -17,15 +18,15 @@ body {
     margin: 0 auto;
     text-align: center;
     height: 100vh;
-    padding: 200px 0;
-
+    padding: 150px 0;
 }
 
 .title {
     color: #fff;
     text-transform: uppercase;
-    padding: 20px 0;
+    padding: 25px 0;
     font-size: 30px;
+    line-height: 2;
 }
 
 /* card-container */
@@ -42,49 +43,46 @@ body {
     background-color: #00b8c4;
 }
 
-.darkcyan {
-    
-    background-color: #006E75;
-    
+.darkcyan {   
+    background-color: #006E75;    
 }
 .card-body-color-1 {
     color: #00b8c4;
 }
+
 .card-body-color-2 {
     color: #006E75;
 }
 
 .shadow-white {
     box-shadow: 12px 4px 0 0 #fff;
-  }
-
+}
 
 .shadow-aqua {
     box-shadow: 12px 4px 0 0 #77eaf1;
-  }
-
+}
 
 .card-container {
     border: 1px solid #77eaf1;
     margin : 0 auto;
-    max-width: fit-content;
-    padding: 30px;
+    max-width: fit-content; 
     border-radius: 30px;
 }
+
 .card {
     width: 270px;
     height: 210px;
-    border-radius: 20px;
-    
+    border-radius: 20px;  
     margin : 0 auto;
     position: relative;
     z-index: 1;
-  }
+}
 
-  .card-padding {
-      padding: 30px;
-  }
-  .circle {
+.card-padding {
+    padding: 30px;
+}
+
+.circle {
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -94,73 +92,63 @@ body {
     left: -30px;
     top: -5px;
     z-index: 2;
-    border-spacing: 5px;
-      
-  }
+    border-spacing: 5px;   
+}
   
-
-  .number {
+.number {
     display: inline-block;
     font-size: 30px;
     padding:14px 0;
     color: #00b8c4;
-  }
-
+}
   
-  .card-header {
+.card-header {
     position: relative;
     height: 50px;
     width: 200px;
     top: 12px;
-    left: 50px;
-   
+    left: 50px; 
     border-top-right-radius: 25px;  
-  }
+}
   
-  .card-title {
+.card-title {
     padding:15px 0 15px 18px;
     color: #fff;
     font-size: 12px;
-  }
-  .card-body {
+}
+.card-body {
     line-height: 1.5;
     padding: 30px 20px;
     font-size: 12px;
-  } 
+} 
 
-  .connect-bar{
-      height: 50px;
-      width: 1px;
-      margin: 0 auto;
-      background-color:#77eaf1;
+.connect-bar{
+    height: 50px;
+    width: 1px;
+    margin: 0 auto;
+    background-color:#77eaf1;
+}
 
-  }
+/* footer */
 
-  /* footer */
+.footer {
+    background-color: #F3FFFF; 
+    padding: 15px;
+}
 
-  .footer {
-      background-color: #F3FFFF;
-      padding-bottom: 100px;
-  }
+.footer-logo {
+    width: 150px;
+    padding: 15px 0;
+}
 
-  .footer-container{
-      max-width: 1160px;
-      margin: 0 auto;
-  }
+.map {
+    width: 250px;
+    height: 300px;
+    margin: 15px auto;
+}
 
-  .footer-logo {
-      width: 150px;
-      padding: 20px 10px;
-  }
-
-  .map {
-      padding: 0 10px 10px 0;
-  }
-
-  
-
-  @media (min-width: 600px) {
+@media (min-width: 600px) {
     body {
       background: green;
     }
-  }
+}
