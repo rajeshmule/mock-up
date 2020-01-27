@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    padding: 15px;
+    padding: 15px 15px 60px 15px;
     background-color: #00b8c4;  
 }
 
@@ -17,7 +17,6 @@ body {
 .header-container {
     margin: 0 auto;
     text-align: center;
-    height: 100vh;
     padding: 150px 0;
 }
 
@@ -128,7 +127,28 @@ body {
     margin: 0 auto;
     background-color:#77eaf1;
 }
+/* dash */
 
+.dash {
+    width: 70px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.big-dash {
+    
+    width: 40px;
+    height: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
 /* footer */
 
 .footer {
@@ -143,9 +163,39 @@ body {
 
 .map {
     width: 250px;
-    height: 300px;
-    margin: 15px auto;
+    
+    margin: 40px auto;
+    
 }
+
+.footer-title {
+    width: 100px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.extra-info {
+    padding: 0 30px 30px 30px;
+}
+
+.flex {
+    display: flex;
+}
+ 
+.address {
+    line-height: 1.5;
+}
+
+
+li {
+   margin-bottom: 25px; 
+}
+.margin-bottom {
+    margin-bottom: 25px;
+}
+
+
 
 .footer-logo-box {
     display: flex;
@@ -157,7 +207,6 @@ body {
     margin: 0 auto;
     
 }
-
 
 .btn{
     width: 100%;
@@ -173,7 +222,5 @@ body {
 }
 
 @media (min-width: 600px) {
-    body {
-      background: green;
-    }
+    
 }
