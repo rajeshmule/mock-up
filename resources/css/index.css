@@ -1,4 +1,4 @@
-/* This applies from 0px to 600px */
+/* For mobile phones: */
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -72,7 +72,7 @@ body {
 }
 
 .card {
-    width: 270px;
+    max-width: 270px;
     height: 210px;
     border-radius: 20px;  
     margin : 0 auto;
@@ -227,7 +227,13 @@ li {
     font-weight: 700;
 }
 
-@media (min-width: 992px) {
+/* For tablets: */
+@media only screen and (min-width: 600px)  {
+    
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px)  {
     .flex-larg {
         display: flex;
     }
