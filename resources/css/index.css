@@ -228,5 +228,72 @@ li {
 }
 
 @media (min-width: 600px) {
-    
+    .flex-larg {
+        display: flex;
+    }
+    .logo{
+        width: 100px;
+        height: 100px; 
+    } 
+     
+    .header-container {
+         padding: 40px 0 30px 0;
+    }
+ 
+    .title{
+         padding: 18px 0;
+     }
+     .footer{
+         padding-bottom: 60px;
+     }
+ 
+     .footer-container {
+         width: 1180px;
+         margin: 0 auto;
+     }
+     .footer-logo {
+         width: 130px;
+         /* border: 1px solid red; */
+     }
+     .footer-title{
+         width: 60px;
+         font-size: 10px;
+         margin-bottom: 25px;
+     }
+ 
+     .extra-info {
+         font-size: 12px;
+     }
+ 
+     .map {
+         margin: 0;
+     }
+ 
+    .btn {
+        width: 100%;
+        height: 60px;
+        font-size: 14px;
+        margin: 3px;
+        padding: 5px;
+    }
+
+    .footer-logo-box {
+        margin-top: 80px;
+    }
+
+    .footer-logo {
+        margin-right: 30px;
+    }
+    .margin-bottom {
+        margin-bottom: 0;
+    }
+    .extra-info {
+        padding: 0 20px;
+    }
+    .footer-btn {
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+ 
 }
