@@ -227,7 +227,7 @@ li {
     font-weight: 700;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 992px) {
     .flex-larg {
         display: flex;
     }
@@ -248,7 +248,7 @@ li {
      }
  
      .footer-container {
-         width: 1180px;
+         max-width: 1080px;
          margin: 0 auto;
      }
      .footer-logo {
@@ -270,11 +270,16 @@ li {
      }
  
     .btn {
-        width: 100%;
+        width: 200px;
         height: 60px;
         font-size: 14px;
-        margin: 3px;
-        padding: 5px;
+        margin: 0 5px;
+        padding: 0  10px;
+    }
+
+    .footer-btn-logo {
+        max-width: 300px;
+        
     }
 
     .footer-logo-box {
