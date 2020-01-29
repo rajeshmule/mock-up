@@ -8,11 +8,6 @@ body {
     background-color: #00b8c4;  
 }
 
-.logo {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-}
 
 .header-container {
     margin: 0 auto;
@@ -20,6 +15,11 @@ body {
     padding: 150px 0;
 }
 
+.logo {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
 .title {
     color: #fff;
     text-transform: uppercase;
@@ -64,6 +64,8 @@ body {
     box-shadow: 12px 4px 0 0 #77eaf1;
 }
 
+
+
 .card-container {
     border: 1px solid #77eaf1;
     margin : 0 auto;
@@ -71,18 +73,17 @@ body {
     border-radius: 30px;
 }
 
-.card {
-    max-width: 270px;
-    height: 210px;
-    border-radius: 20px;  
-    margin : 0 auto;
-    position: relative;
-    z-index: 1;
-}
-
 .card-padding {
     padding: 30px;
 }
+.card {
+    max-width: 270px;
+    min-height: 210px;
+    border-radius: 20px;  
+    margin : 0 auto;
+    position: relative;
+}
+
 
 .circle {
     border-radius: 50%;
@@ -109,7 +110,7 @@ body {
 .card-header {
     position: relative;
     height: 50px;
-    width: 200px;
+    width: 70%;
     top: 12px;
     left: 50px; 
     border-top-right-radius: 25px;  
@@ -168,7 +169,6 @@ body {
 
 .map {
     width: 250px;
-    
     margin: 40px auto;
     
 }
@@ -204,7 +204,7 @@ li {
 
 .footer-logo-box {
     display: flex;
-    margin: 20px;
+    margin: 20px auto;
 }
 
 .footer-btn {
@@ -229,11 +229,30 @@ li {
 
 /* For tablets: */
 @media only screen and (min-width: 600px)  {
+    .flex-tab {
+        display: flex;
+        margin-top: 20px;
+    }
+    .map {
+        margin: 0 auto; 
+    }
+    .extra-info {
+       margin: 0 auto;
+        padding:0 20px;
+    }
     
+    .btn{
+        margin: 10px auto;
+        max-width: 40%;
+    }
+    .footer-logo {
+        margin: 0 auto;
+    }
+
 }
 
 /* For desktop: */
-@media only screen and (min-width: 768px)  {
+@media only screen and (min-width: 770px)  {
     .flex-larg {
         display: flex;
     }
@@ -241,6 +260,9 @@ li {
         width: 100px;
         height: 100px; 
     } 
+    .card-container{
+        max-width: 1000px;
+    }
      
     .header-container {
          padding: 40px 0 30px 0;
@@ -258,8 +280,8 @@ li {
          margin: 0 auto;
      }
      .footer-logo {
-         width: 130px;
-         /* border: 1px solid red; */
+         max-width: 130px;
+        
      }
      .footer-title{
          width: 60px;
@@ -274,26 +296,31 @@ li {
      .map {
          margin: 0;
      }
+
+     .width-50 {
+         width: 50%;
+     }
  
     .btn {
-        width: 200px;
+        width: 250px;
         height: 60px;
         font-size: 14px;
-        margin: 0 5px;
+        margin: 0 auto;
         padding: 0  10px;
     }
 
     .footer-btn-logo {
-        max-width: 300px;
+        width: 25%;
         
     }
 
     .footer-logo-box {
+        
         margin-top: 80px;
     }
 
     .footer-logo {
-        margin-right: 30px;
+        margin: 0 20px 0 0;
     }
     .margin-bottom {
         margin-bottom: 0;
@@ -305,6 +332,9 @@ li {
         width: 100%;
         margin: 0 auto;
         
+    }
+    .flex-tab{
+        margin: 0;
     }
  
 }
